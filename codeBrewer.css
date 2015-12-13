@@ -1,0 +1,35 @@
+#topleft{
+  position: absolute; 
+  left: 0; 
+  top: 0; 
+  bottom: 50px; 
+  width: 175px; 
+  font-family: Arial, sans-serif; 
+  text-align: center;  
+  background-color: white; 
+  color: crimson;
+}
+
+#userbox{
+  position: absolute; 
+  left: 0; 
+  top: 50px; 
+  bottom: 0; 
+  height: auto;
+  width: 175px;
+  background-color: darkseagreen;
+}
+
+#firepad{
+  position: absolute; 
+  left: 175px; 
+  top: 0; 
+  bottom: 0; 
+  right: 0; 
+  height: auto;
+  width: calc(100% - 175px);
+  padding: 20px;
+  background-color: SlateGray;
+  color: black;
+}
+
